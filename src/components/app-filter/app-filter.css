@@ -1,0 +1,15 @@
+.btn-group {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .btn-group .btn {
+        width: 100%;
+        border-radius: 0;
+    }
+  }
